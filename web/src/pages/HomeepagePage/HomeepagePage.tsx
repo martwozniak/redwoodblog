@@ -6,13 +6,14 @@ const HomeepagePage = () => {
     <>
       <MetaTags title="Homeepage" description="Homeepage page" />
 
-      <h1>HomeepagePage</h1>
+      <h1>Hello from HomePage</h1>
       <p>
         Find me in <code>./web/src/pages/HomeepagePage/HomeepagePage.tsx</code>
       </p>
       <p>
         My default route is named <code>homeepage</code>, link to me with `
         <Link to={routes.homeepage()}>Homeepage</Link>`
+        <Link to={routes.kursy()}>Kursy</Link>`
       </p>
     </>
   )
