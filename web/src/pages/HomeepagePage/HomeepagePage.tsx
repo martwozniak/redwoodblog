@@ -13,6 +13,7 @@ import {
 import { Link, routes } from '@redwoodjs/router'
 import { MetaTags } from '@redwoodjs/web'
 
+import ArticlesCell from 'src/components/ArticlesCell'
 const HomeepagePage = () => {
   return (
     <>
@@ -89,6 +90,7 @@ const HomeepagePage = () => {
           </StatHelpText>
         </Stat>
       </StatGroup>
+      <ArticlesCell />
     </>
   )
 }

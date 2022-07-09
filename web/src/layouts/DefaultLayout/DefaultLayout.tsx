@@ -18,6 +18,7 @@ const DefaultLayout = ({ children }: DefaultLayoutProps) => {
         </nav>
       </header>
       <main>{children}</main>
+      <footer>This is app footer</footer>
     </>
   )
 }
